@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-        Compass compass = new Compass();
+        CompassModel compass = new CompassModel();
         View view = new View();
         Controller controller = new Controller(view, compass);
         controller.Run();
